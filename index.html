@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>To Calcuate</title>
+      <script  type="text/javascript">
+
+function result(clicked_value){
+document.getElementById("u1").value+=clicked_value;
+
+}
+    function calculate(){
+      document.getElementById("u1").value=eval(document.getElementById("u1").value);
+    }
+    </script> 
+     
+        
+<style>
+.operation{ width: 100px;height: 50px;
+  background-color:goldenrod;font-size:large;
+}
+
+.numbers{ width: 100px;height: 50px;
+  background-color:lightslategray;color: whitesmoke;font-size:large; 
+}
+
+
+
+</style></head>
+ <center>
+      <body style="background-color: black;">  <div >
+       
+        <h2 id="h1" style="color: darkmagenta;">WELCOME TO THE </h2>
+       <h1 id="h2"style="color: darkmagenta;" >CALCULATOR</h1>
+       <H4 style="color:ghostwhite;">By Bunny</H4> <br>
+
+<input id="u1" style="background-color:turquoise;height:60px;width: 307px;font-size: larger;
+"  ></input> <br>
+
+
+       
+  <button id="plus" class="operation"   onclick="result(this.value)" value="+" ><b>+</b></button>
+  <button   id="minus" class="operation"  onclick="result(this.value)"  value="-" ><b>-</b></button>
+  <button style="width: 100;height: 50px;background-color:green;"  id="equalsto"  onclick="calculate()"  value="=" >=</button><br>
+  
+
+  <button id="mul" class="operation"  onclick="result(this.value)" value="*" ><b>*</b></button>
+  <button   id="div" class="operation"  onclick="result(this.value)"  value="/" ><b>/</b></button>
+  <button style="background-color:crimson;width: 100;height: 50px;font-size: large;" onclick='document.getElementById("u1").value=" "'>Clear</button>
+
+<div >
+  <button id="one" class="numbers" onclick="result(this.value)" value="1" ><b>1</b></button>
+  <button   id="two" class="numbers" onclick="result(this.value)"  value="2" ><b>2</b></button>
+  <button id="three" class="numbers"  onclick="result(this.value)" value="3" ><b>3</b></button><br>
+  <button   id="four" class="numbers" onclick="result(this.value)"  value="4" ><b>4</b></button>
+  <button id="five"  class="numbers" onclick="result(this.value)" value="5" ><b>5</b></button>
+  <button   id="six" class="numbers" onclick="result(this.value)"  value="6" ><b>6</b></button><br>
+  <button id="seven" class="numbers"  onclick="result(this.value)" value="7" ><b>7</b></button>
+  <button   id="eight" class="numbers" onclick="result(this.value)"  value="8" ><b>8</b></button>
+  <button id="nine" class="numbers"  onclick="result(this.value)" value="9" ><b>9</b></button><br>
+  <button   id="zero" class="numbers" onclick="result(this.value)"  value="0" ><b>0</b></button>
+  <button style="background-color: darkkhaki;width: 100;height: 50px;" id="dot"   onclick="result(this.value)" value="." ><b>.</b></button>
+  <button   id="doublezero" class="numbers" onclick="result(this.value)"  value="00" ><b>00</b></button><br>
+  
+
+</div></div></body>
+  <br>    
+<footer>
+  <p style="color: wheat;">Credits to:</p>  <h3 style="color: violet;" >  <b>Parikshat Singh  </b>,Manish Singh,  Harsh Chowdhary </h3>
+</footer>
+
+
+</center></html>
+
+
+       
+       
+      
+
+        
+    
+       
+    
